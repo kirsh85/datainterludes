@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown Style Guide
+title: newpost
 ---
 
 This is a demo of all styled elements in Jekyll Now.
