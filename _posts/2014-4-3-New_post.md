@@ -1,6 +1,6 @@
 ---
 layout: post
-title: newpost
+title: embedding d3.js in RShiny
 ---
 
 This is a demo of all styled elements in Jekyll Now.
