@@ -3,7 +3,7 @@ layout: post
 title: creating bokeh plots in Jupyter
 ---
 
-Developing insteractive visualizations in your Jupyter notebook with Bokeh.
+Developing interactive visualizations in your Jupyter notebook with Bokeh.
 
 ![_config.yml]({{ site.baseurl }}/images/bokeh.png)
 
