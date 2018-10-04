@@ -3,7 +3,7 @@ layout: post
 title: creating bokeh plots in Jupyter
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Developing insteractive visualizations in your Jupyter notebook with Bokeh.
 
 ![_config.yml]({{ site.baseurl }}/images/bokeh.png)
 
