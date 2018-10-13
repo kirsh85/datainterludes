@@ -3,7 +3,7 @@ layout: post
 title: creating bokeh plots in Jupyter
 ---
 
-Developing interactive visualizations within your Jupyter notebook with Bokeh.
+Developing interactive visualizations within your Jupyter notebook with Bokeh. Sometimes you would like to use jupyter for presenting your data science results. I required this when presenting my Python Machine learning project for the NYC Data Science Academy. It was useful to have interactive plots and have the ability to hover over certain points in the plot while presenting. I also wanted to use th pandas data frame and found you could intergrate pandas with the Bokeh library.
 
 
 ```
