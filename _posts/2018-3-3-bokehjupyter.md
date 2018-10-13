@@ -18,27 +18,34 @@ from bokeh.models import ColumnDataSource
 # for hovering
 from bokeh.io import curdoc
 from bokeh.models import HoverTool
+```
 
-# to render within nb
+To render your plot  within your jupyter notebook and convert the pandas data frame to bokeh.
+```
 bokeh.io.output_notebook(INLINE)
 # convert pandas df to bokeh
 source = ColumnDataSource(data = {'x' : data['col1'], 'y' : data['col2']})
-
+```
+Set your colours. 
+```
 #colormap = {'Y': 'red', 'N': 'green'}
-#colors = [colormap[x] for x in data.Loyalty_Program]
+#colors = [colormap[x] for x in data.Col1]
+```
 
-
-# create a new plot with a title and axis labels
+Then create a new plot with a title and axis labels.
+```
 p = figure(title = 'Relationship between Col1 and Col2',
                   x_axis_label = 'col1', y_axis_label = 'col2')
 p.circle(x='x',y='y', source=source,radius=0.05)
-
-#hover
+```
+Set the hover functionality.
+````
 hover = HoverTool(tooltips = [('col1', '@y'), ('col2|', '@x')])
 p.add_tools(hover)
 curdoc().add_root(p)
-# show the results
-
+# show plot
 show(p)
+
 ```
+
 ![_config.yml]({{ site.baseurl }}/images/bokeh.png)
